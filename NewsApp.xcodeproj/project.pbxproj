@@ -13,6 +13,8 @@
 		89570A72266C22240006FA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89570A70266C22240006FA21 /* Main.storyboard */; };
 		89570A74266C22270006FA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89570A73266C22270006FA21 /* Assets.xcassets */; };
 		89570A77266C22270006FA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89570A75266C22270006FA21 /* LaunchScreen.storyboard */; };
+		89570A7F266C26950006FA21 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89570A7E266C26950006FA21 /* APICaller.swift */; };
+		89570A81266C36DB0006FA21 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89570A80266C36DB0006FA21 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		89570A73266C22270006FA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89570A76266C22270006FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89570A78266C22270006FA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89570A7E266C26950006FA21 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		89570A80266C36DB0006FA21 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				89570A73266C22270006FA21 /* Assets.xcassets */,
 				89570A75266C22270006FA21 /* LaunchScreen.storyboard */,
 				89570A78266C22270006FA21 /* Info.plist */,
+				89570A7E266C26950006FA21 /* APICaller.swift */,
+				89570A80266C36DB0006FA21 /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				89570A6F266C22240006FA21 /* ViewController.swift in Sources */,
 				89570A6B266C22240006FA21 /* AppDelegate.swift in Sources */,
+				89570A81266C36DB0006FA21 /* NewsTableViewCell.swift in Sources */,
 				89570A6D266C22240006FA21 /* SceneDelegate.swift in Sources */,
+				89570A7F266C26950006FA21 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
